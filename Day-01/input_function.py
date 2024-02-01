@@ -16,6 +16,4 @@ Write a program that calculates and outputs the number of characters in any name
 # Don't put anything inside the input() function!
 """
 
-name = input()
-
-print(len(name))
+print(len(input("Enter your name: ")))
